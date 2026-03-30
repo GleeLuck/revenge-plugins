@@ -1,6 +1,6 @@
 # Revenge Plugins
 
-This is my collection of [Revenge](https://github.com/revenge-mod/revenge) plugins. A Clone of [PalmDevs](https://github.com/PalmDevs/revenge-plugins)'s repository.
+A Clone of [PalmDevs](https://github.com/PalmDevs/revenge-plugins)'s repository.
 
 ## Source Credit
 
