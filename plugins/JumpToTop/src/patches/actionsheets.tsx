@@ -1,6 +1,6 @@
 import { findByName, findByProps } from "@vendetta/metro";
 import { ReactNative as RN } from "@vendetta/metro/common";
-import { after } from "@lib/patcher";
+import { after } from "@vendetta/patcher";
 import { getAssetIDByName } from "@vendetta/ui/assets";
 import { findInReactTree } from "@vendetta/utils";
 import { jumpToTopOfDifferentChannel, jumpToTopOfForum } from "../utils";
