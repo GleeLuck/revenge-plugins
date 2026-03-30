@@ -1,4 +1,4 @@
-import { showDialog } from "../../../../lib/ui/AlertDialog";
+import { showDialog } from "../dependencies/lib/ui/AlertDialog";
 
 export default function (onConfirm) {
   showDialog({
