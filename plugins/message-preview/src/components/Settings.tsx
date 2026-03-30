@@ -3,7 +3,7 @@ import { useProxy } from "@vendetta/storage";
 import { getAssetIDByName } from "@vendetta/ui/assets";
 import { Forms } from "@vendetta/ui/components";
 
-import { BetterTableRowGroup } from "./dependencies/components/BetterTableRow";
+import { BetterTableRowGroup } from "../dependencies/components/BetterTableRow";
 
 import { vstorage } from "..";
 
