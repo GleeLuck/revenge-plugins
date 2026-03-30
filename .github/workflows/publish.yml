@@ -53,4 +53,4 @@ jobs:
                 git commit -m "Build $GITHUB_SHA" || exit 0
                 git push
             env:
-              GITHUB_TOKEN: ${{ secrets.BUILD_REPO_TOKEN }}
+              BUILD_REPO_TOKEN: ${{ secrets.BUILD_REPO_TOKEN }}
