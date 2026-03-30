@@ -3,7 +3,6 @@ on:
     push:
         branches: 
             - "main"
-            - "dev"
 
 jobs:
     build:
@@ -21,7 +20,7 @@ jobs:
             with:
                 repository: "GleeLuck/revenge-plugins-builds"
                 path: "builds"
-                token: ${{ secrets.GITHUB_TOKEN }}
+                token: ${{ secrets.BUILD_REPO_TOKEN }}
                 ref: main
 
           - name: Cache dependencies
@@ -54,4 +53,4 @@ jobs:
                 git commit -m "Build $GITHUB_SHA" || exit 0
                 git push
             env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              GITHUB_TOKEN: ${{ secrets.BUILD_REPO_TOKEN }}
