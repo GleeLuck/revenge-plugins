@@ -3,7 +3,7 @@ import { React, ReactNative as RN } from "@vendetta/metro/common";
 import { after, before } from "@vendetta/patcher";
 import { findInReactTree } from "@vendetta/utils";
 
-import intlProxy from "./dependencies/lib/intlProxy";
+import intlProxy from "../dependencies/lib/intlProxy";
 
 import { vstorage } from "..";
 import PreviewButton from "../components/PreviewButton";
