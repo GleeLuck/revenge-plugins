@@ -34,9 +34,7 @@ for (const plugin of plugins.length ? plugins : await readdir('./plugins')) {
                 if (warning.code === 'MISSING_NAME_OPTION_FOR_IIFE_EXPORT') return
                 return console.warn(warning.message)
             },
-            external: id => Boolean(id.match(/^@(revenge-mod|vendetta|lib)/)) ||
-                id.startsWith('@lib') ||
-                !!ImportMap[id],
+            external: id => Boolean(id.match(/^@(revenge-mod|vendetta)/)) || !!ImportMap[id],
             plugins: [
                 tsConfigPaths(),
                 nodeResolve(),
