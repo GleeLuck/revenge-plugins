@@ -3,7 +3,7 @@ import { before } from "@vendetta/patcher";
 import { semanticColors } from "@vendetta/ui";
 import { getAssetIDByName } from "@vendetta/ui/assets";
 
-import { Reanimated } from "./dependencies/deps";
+import { Reanimated } from "../dependencies/deps";
 
 import openPreview from "../stuff/openPreview";
 import type { ChatInputProps } from "../stuff/patcher";
