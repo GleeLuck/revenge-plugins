@@ -4,8 +4,6 @@ A Clone of [PalmDevs](https://github.com/PalmDevs/revenge-plugins) repository.
 
 ## Source Credit
 
-To install, you can copy the links for the plugins and paste it in your modified Discord client.
-
 * [better-chat-buttons](https://github.com/PalmDevs/revenge-plugins/tree/main/plugins/better-chat-buttons)
 * [favouriteanything](https://github.com/TheUnrealZaka/FavouriteAnything/tree/master/plugins/favouriteanything)
 * [freemoji](https://github.com/Rico040/bunny-plugins/tree/master/plugins/freemoji)
